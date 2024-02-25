@@ -19,7 +19,7 @@ birthday_day = {
 }
 
 def get_birthdays_per_week(users):
-    today = datetime.now().date() + timedelta(days=4)
+    today = datetime.today().date() 
     end_of_week = today + timedelta(days=6)
     
 
